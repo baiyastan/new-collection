@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    line-height: normal;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px 20px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
