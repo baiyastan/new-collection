@@ -1,8 +1,13 @@
 import React from 'react'
 
+import './Home.css'
+import Banner from '../banner/Banner'
+
 function Home() {
   return (
-    <div style={{height: "1000px"}}>Home</div>
+    <div className='home'>
+      <Banner />
+    </div>
   )
 }
 
