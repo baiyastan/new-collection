@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
 import Layout from "./components/layout/Layout";
 import { About, Contact, Home, NotFound, Service, Why } from "./pages";
+
+import "./App.css";
 
 function App() {
   return <div className="wrapper">
