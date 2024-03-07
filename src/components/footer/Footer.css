@@ -76,7 +76,6 @@
 @media (max-width: 1024px) {
     .footer {
         max-width: 960px;
-        border: 1px solid black;
         margin: 0 auto;
     }
 }
@@ -84,7 +83,6 @@
 @media (max-width: 992px) {
     .footer {
         max-width: 960px;
-        border: 1px solid black;
         margin: 0 auto;
     }
 }
@@ -92,15 +90,19 @@
 @media (max-width: 768px) {
     .footer {
         max-width: 720px;
-        border: 1px solid black;
         margin: 0 auto;
+    }
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
     }
 }
 
 @media (max-width: 425px) {
     .footer {
         max-width: 425px;
-        border: 1px solid black;
         margin: 0 auto;
     }
     .footer .container {

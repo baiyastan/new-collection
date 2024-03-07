@@ -2,7 +2,7 @@ import React from 'react'
 
 function Service() {
   return (
-    <div>Service</div>
+    <div style={{height: "1000px"}}>Service</div>
   )
 }
 

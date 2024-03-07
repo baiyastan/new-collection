@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div style={{height: "2000px"}}>Home</div>
+    <div style={{height: "1000px"}}>Home</div>
   )
 }
 
