@@ -1,5 +1,6 @@
 .footer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer .container {
@@ -95,7 +96,7 @@
 
 @media (max-width: 768px) {
     .footer {
-        max-width: 720px;
+        max-width: 700px;
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -112,6 +113,7 @@
         max-width: 425px;
         margin: 0 auto;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     .footer .container {
         display: flex;
