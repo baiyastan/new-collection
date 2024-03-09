@@ -39,7 +39,7 @@ function Header() {
         <div className='header'>
             <div className='container'>
                 <div className='logo'>
-                    <Link to='/'>IMPERIAL HOLDING</Link>
+                    <Link to='/'>IMPERIAL STYLE</Link>
                 </div>
                 <nav className={`navs ${isChecked ? "nav-mobile" : ""}`}>
                     <ul>
