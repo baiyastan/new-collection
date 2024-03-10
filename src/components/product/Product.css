@@ -1,0 +1,41 @@
+.product {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #37517e;
+    margin-bottom: 30px;
+}
+
+.product-text {
+    text-align: center;
+    font-size: 16px;
+    color: #444444;
+}
+
+.product-box {
+    margin-top: 30px;
+}
+
+.categories ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.categories ul li {
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.item-active {
+    background: #47b2e4;
+    color: #fff;
+}
