@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function ProductName({items, onClickItem}) {
+function ProductName({ items }) {
     const [activeItem, setActiveItem] = useState(null)
 
     const onSelecItem = (index) => {

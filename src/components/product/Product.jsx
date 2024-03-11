@@ -1,7 +1,9 @@
 import React from 'react'
 
-import './Product.css'
 import ProductName from './ProductName'
+import Card from './Card'
+
+import './Product.css'
 
 function Product() {
   return (
@@ -12,6 +14,9 @@ function Product() {
         <div className='product-box'>
             <div className='product-box-name'>
                 <ProductName onClickItem={(name) => console.log(name)} items={['Платья', 'Рубашка', 'Брюки', 'Двойка', 'Футболка', 'Домашная одежда', 'Юбки']}/>
+            </div>
+            <div className='product-box-card'>
+              <Card />
             </div>
         </div>
       </div>
