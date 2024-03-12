@@ -129,6 +129,7 @@
 .about-right-pay {
     color: #212529;
     font-size: 16px;
+    text-wrap: wrap;
 }
 
 
@@ -137,6 +138,7 @@
         max-width: 960px;
         margin: 0 auto;
         margin-top: 20px;
+        box-sizing: border-box;
     }
     .about-description {
         max-width: 960px;
@@ -177,6 +179,9 @@
         margin: 0 auto;
         margin-top: 30px;
     }
+    .about-description .container {
+        max-width: 700px;
+    }
     .descripton-content {
         max-width: 746px;
         margin: 0 auto;
@@ -184,8 +189,14 @@
 }
 
 @media (max-width: 425px) {
+    .about .container .about-text {
+        padding: 0 10px;
+    }
+    .about .container .about-description {
+        padding: 0 5px;
+    }
     .about-text {
-        max-width: 401px;
+        max-width: 400px;
         margin: 0 auto;
         margin-top: 20px;
         text-wrap: wrap;
@@ -203,5 +214,8 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+    .about-right-pay {
+        text-wrap: wrap;
     }
 }
