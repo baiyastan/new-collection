@@ -157,7 +157,6 @@
         display: block;
     }
     .nav-mobile {
-        /* width: 300px; */
         padding: 10px 30px;
         display: block;
         position: fixed;
@@ -180,12 +179,14 @@
     .navs.nav-mobile ul {
         display: flex;
         flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
         position: absolute;
         top: 15px;
         right: 15px;
         bottom: 15px;
         left: 15px;
-        padding: 10px 0;
+        padding: 10px 10px;
         border-radius: 10px;
         background-color: #fff;
         overflow-y: auto;
@@ -284,21 +285,23 @@
     .navs.nav-mobile ul {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         top: 15px;
         right: 15px;
         bottom: 15px;
         left: 15px;
-        padding: 10px 0;
+        padding: 20px;
         border-radius: 10px;
         background-color: #fff;
         overflow-y: auto;
         transition: 0.3s;
     }
     
-      .navs.nav-mobile ul li {
+    .navs.nav-mobile ul li {
         display: block;
     }
+
     .burger {
         width: 30px;
         height: 20px;
@@ -359,6 +362,9 @@
         display: none;
     }
     .nav-mobile {
+        width: 400px;
+        margin: 0 auto;
+        box-sizing: border-box;
         padding: 10px 30px;
         display: block;
         position: fixed;
@@ -381,7 +387,7 @@
         right: 15px;
         bottom: 15px;
         left: 15px;
-        padding: 10px 0;
+        padding: 10px 10px;
         border-radius: 10px;
         background-color: #fff;
         overflow-y: auto;
@@ -391,11 +397,11 @@
     .navs.nav-mobile ul {
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        /* margin-top: 20px; */
+        align-items: flex-start;
+        padding: 20px;
     }
     
-      .navs.nav-mobile ul li {
+    .navs.nav-mobile ul li {
         display: block;
     }
 
