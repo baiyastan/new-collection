@@ -97,7 +97,7 @@
 
 @media (max-width: 425px) {
     .product {
-        width: 380px;
+        width: 360px;
         margin: 0 auto;
     }
     .categories ul {
@@ -108,6 +108,10 @@
     .categories ul li {
         display: flex;
         width: 100%;
+    }
+    .product-box-card{
+        width: 360px;
+        margin: 0 auto;
     }
     .card {
         margin: 0 auto;
