@@ -53,7 +53,7 @@
 
 @media (max-width: 1024px) {
     .product {
-        width: 960px;
+        max-width: 960px;
         margin: 0 auto;
     }
     .categories ul {
@@ -68,7 +68,7 @@
 
 @media (max-width: 992px) {
     .product {
-        width: 960px;
+        max-width: 960px;
         margin: 0 auto;
     }
     .categories ul {
@@ -83,7 +83,7 @@
 
 @media (max-width: 768px) {
     .product {
-        width: 720px;
+        max-width: 720px;
         margin: 0 auto;
     }
     .categories ul {
@@ -97,7 +97,7 @@
 
 @media (max-width: 425px) {
     .product {
-        width: 360px;
+        max-width: 375px;
         margin: 0 auto;
     }
     .categories ul {
@@ -110,7 +110,7 @@
         width: 100%;
     }
     .product-box-card{
-        width: 360px;
+        max-width: 360px;
         margin: 0 auto;
     }
     .card {
@@ -120,7 +120,7 @@
 
 @media (max-width: 375px) {
     .product {
-        width: 320px;
+        max-width: 320px;
         margin: 0 auto;
     }
     .categories ul {

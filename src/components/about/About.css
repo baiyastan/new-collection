@@ -217,19 +217,47 @@
         padding: 0 5px;
     }
     .about-text {
-        max-width: 370px;
+        max-width: 375px;
         margin: 0 auto;
         margin-top: 20px;
     }
     .about-description {
-        max-width: 370px;
+        max-width: 375px;
         margin: 0 auto;
         margin-top: 30px;
         display: flex;
         flex-direction: column;
     }
     .descripton-content {
-        max-width: 390px;
+        max-width: 375px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-right-pay {
+        text-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px) {
+    .about {
+        max-width: 375px;
+    }
+    .about-text {
+        max-width: 320px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .about-description {
+        max-width: 320px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .descripton-content {
+        max-width: 320px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
