@@ -117,3 +117,27 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 375px) {
+    .product {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .categories ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .categories ul li {
+        display: flex;
+        width: 100%;
+    }
+    .product-box-card{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .card {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

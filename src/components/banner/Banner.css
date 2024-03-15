@@ -141,3 +141,36 @@
         object-fit: contain;
     }
 }
+
+@media (max-width: 375px) {
+    .home-banner .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .banner-title {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+    .banner-title h2 {
+        font-size: 20px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    .banner-title p {
+        font-size: 16px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    .banner-image {
+        max-width: 320px;
+        margin: 0;
+    }
+    .banner-image .banner-image-back {
+        max-width: 320px;
+        height: auto;
+        object-fit: contain;
+    }
+}
