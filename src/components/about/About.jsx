@@ -22,8 +22,8 @@ function About() {
               <p>IMPERIAL STYLE - надежный и долгосрочный партнер более чем для 20 крупных брендов. Мы гарантируем высокое качество пошива, индивудиальный подход к каждому заказу и оперативное выполнение работ.</p>
               <p>Не уступите возмлжность получить выгодное предложение вашего бизнеса! Свяжитесь с нами уже сегодня через <a href="#">WhataApp</a></p>
               </div>
-          </section>
-          <section className='about-description'>
+      </section>
+      <section className='about-description'>
             <div className='container'>
                 <h2>О компании</h2>
                 <div className='about-line'></div>
@@ -79,7 +79,7 @@ function About() {
                   </div>
                 </div>
               </div>
-            </section>
+      </section>
       </div>  
   )
 }

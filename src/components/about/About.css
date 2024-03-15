@@ -208,7 +208,7 @@
 
 @media (max-width: 435px) {
     .about {
-        max-width: 425px;
+        max-width: 412px;
     }
     .about .about-text {
         padding: 0 10px;
@@ -242,10 +242,10 @@
 
 @media (max-width: 375px) {
     .about {
-        max-width: 375px;
+        max-width: 350px;
     }
     .about-text {
-        max-width: 320px;
+        max-width: 300px;
         margin: 0 auto;
         margin-top: 20px;
     }
