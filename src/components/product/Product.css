@@ -133,7 +133,7 @@
         width: 100%;
     }
     .product-box-card{
-        width: 320px;
+        max-width: 320px;
         margin: 0 auto;
     }
     .card {
