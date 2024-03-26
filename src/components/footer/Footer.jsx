@@ -22,7 +22,7 @@ function Footer() {
       <div className="container">
         <div className="footer-logo">
           <div className="logo">
-            <Link to="/" style={{color: '#37517e'}}>IMPERIAL STYLE</Link>
+            <Link to="/" style={{color: '#37517e', marginBottom: '5px'}}>IMPERIAL STYLE</Link>
           </div>
           <div className="footer-address">г.Бишкек Керемет 2-ая Ном-91</div>
           <p>
