@@ -5,7 +5,7 @@ function Card({ items }) {
     <div className="box">
       {items.slice(0,5).map((el) => (
         <div className="card-item" key={el.id}>
-          <img src={el.image} alt="card image"/>
+          <img src={el.avatar} alt="card image"/>
         </div>
       ))}
     </div>
