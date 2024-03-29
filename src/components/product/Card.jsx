@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function Card() {
+function Card({ items }) {
   return (
-    <div className='card'>
-      Card
+    <div className="box">
+      {items.slice(0,5).map((el) => (
+        <div className="card-item" key={el.id}>
+          <img src={el.image} alt="card image"/>
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
