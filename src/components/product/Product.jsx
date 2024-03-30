@@ -6,7 +6,7 @@ import Card from "./Card";
 
 import "./Product.css";
 
-const API = "https://fakestoreapi.com/products";
+const API = "https://656df576bcc5618d3c244f13.mockapi.io/ap/v1/loylen";
 
 function Product() {
   const [product, setProduct] = useState([]);
@@ -14,7 +14,7 @@ function Product() {
     const getProduct = async () => {
       try {
         const res = await axios.get(API);
-        setProduct(res.data)
+        setProduct(res.data);
       } catch (error) {
         console.log(error);
       }
@@ -45,7 +45,7 @@ function Product() {
             />
           </div>
           <div className="product-box-card">
-            <Card items={product}/>
+            <Card items={product} />
           </div>
         </div>
       </div>
