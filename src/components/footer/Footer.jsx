@@ -29,7 +29,7 @@ function Footer() {
             <strong>Phone:</strong>+996504-304-333
           </p>
           <p>
-            <strong>Email:</strong>k.kabylbekov@list.ru
+            <strong>Email:</strong>imperial.style3@gmail.com
           </p>
         </div>
         <div className="footer-menu">

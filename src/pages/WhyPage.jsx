@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import WhyCom from "../components/Why";
 
 function WhyPage() {
   return (
-    <div>WhyPage</div>
-  )
+    <div>
+      <WhyCom />
+    </div>
+  );
 }
 
-export default WhyPage
+export default WhyPage;

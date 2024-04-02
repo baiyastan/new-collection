@@ -26,22 +26,14 @@ function Product() {
       <div className="container">
         <div className="product-title">Какие изделия шьём</div>
         <div className="product-text">
-          Специализируемся на мужской, женской и детской одежде 1-2-3 слоя. Шьём
-          всё, кроме вязаных изделий и нежного белья
+          Специализируемся на женской одежде 1-2-3 слоя. Шьём всё, кроме вязаных
+          изделий и нежного белья
         </div>
         <div className="product-box">
           <div className="product-box-name">
             <ProductName
               onClickItem={(name) => console.log(name)}
-              items={[
-                "Платья",
-                "Рубашка",
-                "Брюки",
-                "Двойка",
-                "Футболка",
-                "Домашная одежда",
-                "Юбки",
-              ]}
+              items={["Платья", "Юбки"]}
             />
           </div>
           <div className="product-box-card">
