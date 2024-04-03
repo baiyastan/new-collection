@@ -31,7 +31,7 @@ function Contact() {
                 </div>
                 <div className='contact-this-text'>
                   <h2>Email:</h2>
-                  <p>k.kabylbekov@list.ru</p>
+                  <p>imperial.style3@gmail.com</p>
                 </div>
               </div>
               <div className='contact-this'>
