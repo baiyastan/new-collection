@@ -14,7 +14,7 @@ function Footer() {
     setIsActive(true);
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: "smooth" });
-      setIsActive(false)
+      setIsActive(false);
     });
   };
   return (
@@ -22,24 +22,36 @@ function Footer() {
       <div className="container">
         <div className="footer-logo">
           <div className="logo">
-            <Link to="/" style={{color: '#37517e', marginBottom: '5px'}}>IMPERIAL STYLE</Link>
+            <Link to="/" style={{ color: "#37517e", marginBottom: "5px" }}>
+              IMPERIAL STYLE
+            </Link>
           </div>
           <div className="footer-address">г.Бишкек Керемет 2-ая Ном-91</div>
-          <p>
-            <strong>Phone:</strong>+996504-304-333
-          </p>
-          <p>
+          <a href="tel:+996500992220" className="link">
+            <strong>Phone:</strong>+996 500 992 220
+          </a>
+          <a href="molito: imperial.style3@gmail.com" className="link">
             <strong>Email:</strong>imperial.style3@gmail.com
-          </p>
+          </a>
         </div>
         <div className="footer-menu">
           <div className="footer-link">Полезный ссылки</div>
           <div className="menu-link">
-            <Link onClick={handleClick} to="/">Что шьём</Link>
-            <Link onClick={handleClick} to="/about">О компании</Link>
-            <Link onClick={handleClick} to="/service">Услуги</Link>
-            <Link onClick={handleClick} to="/why">Почему мы</Link>
-            <Link onClick={handleClick} to="/contact">Контакты</Link>
+            <Link onClick={handleClick} to="/">
+              Что шьём
+            </Link>
+            <Link onClick={handleClick} to="/о компании">
+              О компании
+            </Link>
+            <Link onClick={handleClick} to="/услуги">
+              Услуги
+            </Link>
+            <Link onClick={handleClick} to="/почему мы">
+              Почему мы
+            </Link>
+            <Link onClick={handleClick} to="/контакты">
+              Контакты
+            </Link>
           </div>
         </div>
         <div className="footer-network">

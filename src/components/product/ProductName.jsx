@@ -1,28 +1,33 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function ProductName({ items }) {
-    const [activeItem, setActiveItem] = useState(null)
+  const [activeItem, setActiveItem] = useState(null);
 
-    const onSelecItem = (index) => {
-        setActiveItem(index)
-    }
+  const onSelecItem = (index) => {
+    setActiveItem(index);
+  };
 
   return (
-    <div className='categories'>
+    <div className="categories">
       <ul>
-        <li className={activeItem === null ? 'item-active' : ''}  onClick={() => onSelecItem(null)}>Все</li>
-        {
-            items.map((name, index) => (
-                <li className={activeItem === index ? 'item-active' : ''} 
-                    onClick={() => onSelecItem(index)} 
-                    key={`${name}_${index}`}>
-                        {name}
-                </li>
-            ))
-        }
+        <li
+          className={activeItem === null ? "item-active" : ""}
+          onClick={() => onSelecItem(null)}
+        >
+          Все
+        </li>
+        {items.map((name, index) => (
+          <li
+            className={activeItem === index ? "item-active" : ""}
+            onClick={() => onSelecItem(index)}
+            key={`${name}_${index}`}
+          >
+            {name}
+          </li>
+        ))}
       </ul>
     </div>
-  )
+  );
 }
 
-export default ProductName
+export default ProductName;

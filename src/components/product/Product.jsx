@@ -32,7 +32,6 @@ function Product() {
         <div className="product-box">
           <div className="product-box-name">
             <ProductName
-              onClickItem={(name) => console.log(name)}
               items={["Платья", "Юбки"]}
             />
           </div>

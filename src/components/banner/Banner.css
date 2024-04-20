@@ -1,7 +1,8 @@
 .home-banner {
     width: 100%;
     min-height: 500px;
-    background-color: #37517e;
+    /* background-color: #37517e; */
+    background-color: #f2f2f2;
     padding: 120px 40px;
 }
 
