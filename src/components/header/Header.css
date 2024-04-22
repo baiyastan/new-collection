@@ -1,5 +1,6 @@
 .top-header {
-    background-color: #37517e;
+    /* background-color: #37517e; */
+    background-color: rgba(242, 242, 242, 1) !important;
     position: fixed;
     top: 0;
     right: 0;
@@ -52,13 +53,13 @@
 }
 
 .navs ul li a:hover {
-    background-color: #47b2e4;
+    /* background-color: #47b2e4; */
     color: #fff;
     transition: all 0.3s ease;
 }
 
 .active{
-    background-color: #47b2e4;
+    /* background-color: #47b2e4; */
     color: #fff;
 }
 
@@ -72,11 +73,6 @@
     font-weight: 500;
     color: #fff;
 }
-
-.navs .header-btn:hover {
-    border: 1px solid #47b2e4;
-}
-
 .burger {
     position: relative;
     width: 40px;
