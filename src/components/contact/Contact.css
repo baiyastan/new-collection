@@ -1,168 +1,229 @@
 .contact {
-    width: 1440px;
-    margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .contact .container {
-    margin-top: 74px;
+  margin-top: 74px;
 }
 
 .contact-text {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    color: #393939;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #393939;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .contact-item {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.contact-item-title{
-    width: 100%;
-    height: 450px;
-    padding: 30px;
-    background-color: #fff;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    border: 1px solid black;
-    margin-bottom: 30px;
+.contact-item-title {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.info-text-icon {
-    color: #3a9c6f;
-    font-size: 30px;
+.info-contact-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-contact-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-text-info {
+  margin-top: 40px;
+}
+
+.email-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-style a {
+    color: #3a9c6f !important;
+    margin-top: 10px !important;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.display a {
+  margin-left: 10px;
+  color: #3a9c6f !important;
+  font-weight: 500;
+}
+
+.contact-line {
+  width: 2px;
+  height: 140px;
+  background: #393939;
 }
 
 .contact-map {
-    width: 1200px;
-    height: 450px;
+  width: 1200px;
+  height: 450px;
 }
 
 .contact-map iframe {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1024px) {
-    .contact {
-        max-width: 1024px;
-    }
-    .contact-title {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-    .contact-item-title {
-        max-width: 400px;
-    }
+  .contact {
+    max-width: 1024px;
+  }
+  .contact-title {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .contact-item-title {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 992px) {
-    .contact {
-        max-width: 992px;
-    }
-    .contact-title {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-    .contact-item-title {
-        max-width: 400px;
-    }
+  .contact {
+    max-width: 992px;
+  }
+  .contact-title {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .contact-item-title {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 768px) {
-    .contact {
-        max-width: 768px;
-    }
-    .contact-title {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .contact-item {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin: 0 auto;
-    }
-    .contact-item-title {
-        max-width: 550px;
-        margin: 0 auto;
-    }
-    .contact-map {
-        margin: 0 auto;
-    }
+  .contact {
+    max-width: 768px;
+  }
+  .contact-title {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .contact-item-title {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-line {
+    width: 0;
+    height: 0;
+  }
+
+  .email {
+    margin-top: 30px;
+  }
+
+  .contact-map {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 435px) {
-    .contact {
-        max-width: 435px;
-        width: 100%;
-        margin: 0;
-    }
-    .contact-title {
-        max-width: 355px;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-    .contact-text {
-        max-width: 400px;
-        font-size: 32px;
-        margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-wrap: wrap;
-    }
-    .contact-item {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin: 0 auto;
-    }
-    .contact-item-title {
-        max-width: 355px;
-        margin: 0 auto;
-    }
-    .contact-map {
-        max-width: 355px;
-        margin: 0 auto;
-    }
+  .contact {
+    max-width: 435px;
+    width: 100%;
+    margin: 0;
+  }
+  .contact-title {
+    max-width: 355px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .contact-text {
+    max-width: 400px;
+    font-size: 32px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-wrap: wrap;
+  }
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .contact-item-title {
+    max-width: 355px;
+    margin: 0 auto;
+  }
+
+  .info-contact {
+    margin-bottom: 30px;
+  }
+
+  .info-contact:last-child{
+    margin-bottom: 0;
+  }
+
+  .contact-map {
+    max-width: 355px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 375px) {
-    .contact {
-        max-width: 375px;
-        margin: 0;
-    }
-    .contact-title {
-        max-width: 320px;
-        margin: 0 auto;
-    }
-    .contact-text {
-        max-width: 330px;
-        font-size: 32px;
-        margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-wrap: wrap;
-    }
-    .contact-item {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin: 0 auto;
-    }
-    .contact-item-title {
-        max-width: 320px;
-        margin: 0 auto;
-    }
-    .contact-map {
-        max-width: 320px;
-        margin: 0 auto;
-    }
+  .contact {
+    max-width: 375px;
+    margin: 0;
+  }
+  .contact-title {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .contact-text {
+    max-width: 330px;
+    font-size: 32px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-wrap: wrap;
+  }
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .contact-item-title {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .contact-map {
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }
