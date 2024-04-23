@@ -1,16 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import './Home.css'
-import Banner from '../banner/Banner'
-import Product from '../product/Product'
+import Banner from "../banner/Banner";
+import Product from "../product/Product";
+import Partner from "../partner";
+
+import "./Home.css";
 
 function Home() {
   return (
-    <div className='home'>
+    <div className="home">
       <Banner />
+      <Partner />
       <Product />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

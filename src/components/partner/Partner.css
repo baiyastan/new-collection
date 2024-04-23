@@ -1,0 +1,8 @@
+.partner {
+    margin-top: 30px;
+}
+
+.partner .container h2 {
+    text-align: center;
+    text-wrap: balance;
+}
