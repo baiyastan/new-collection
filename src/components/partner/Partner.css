@@ -8,9 +8,12 @@
 }
 
 .partner-box {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-gap: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
   margin-top: 40px;
 }
 
@@ -29,6 +32,22 @@
   cursor: pointer;
   transform: scale(0.9);
   transition: transform 0.3s ease;
+}
+
+.partner-card:last-child {
+  width: 250px;
+}
+
+.partner-card:nth-last-child(2) {
+  width: 250px;
+}
+
+.partner-card:nth-last-child(3) {
+  width: 250px;
+}
+
+.partner-card:nth-last-child(4) {
+  width: 250px;
 }
 
 .partner-card p {
@@ -52,6 +71,21 @@
 
   .partner-card {
     transform: none;
+  }
+  .partner-card:last-child {
+    width: 290px;
+  }
+  
+  .partner-card:nth-last-child(2) {
+    width: 290px;
+  }
+  
+  .partner-card:nth-last-child(3) {
+    width: 290px;
+  }
+  
+  .partner-card:nth-last-child(4) {
+    width: 290px;
   }
 }
 
