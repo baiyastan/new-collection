@@ -5,11 +5,13 @@ import Product from "../product/Product";
 import Partner from "../partner";
 
 import "./Home.css";
+import BannerCarousel from "../banner/BannerCarousel";
 
 function Home() {
   return (
     <div className="home">
-      <Banner />
+      {/* <Banner /> */}
+      <BannerCarousel />
       <Partner />
       <Product />
     </div>
