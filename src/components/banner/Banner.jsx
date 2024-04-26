@@ -1,21 +1,34 @@
-import React from 'react'
+// Banner.js
+import React from "react";
+import "./Banner.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-import "./Banner.css"
-
-function Banner() {
+function Banner({ item, prev, next, isActive, isSliding }) {
   return (
-    <section className='home-banner'>
-        <div className='container'>
-            <div className='banner-title'>
-                <h2>Оптовый пошив одежды любой сложности под ключ</h2>
-                <p>Для поставщикав маркетплейсов, оптовых покупателей и розничных магазинов</p>
-            </div>
-            <div className='banner-image'>
-                <img src='https://zipunya-collection.kg/assets/img/first.jpeg' alt='banner image' className='banner-image-back'/>            
-            </div>
+    <>
+      <section
+        // className={`${isActive ? "home-banner" : "home-banner home-hidden"}`}
+        // style={{ transform: isActive ? "translateX(0)" : "translateX(-100%)" }}
+        className={`home-banner ${isSliding ? "sliding" : ""} ${
+          isActive ? "" : "home-hidden"
+        }`}
+      >
+        <div className="banner-title">
+          <h2>{item.title}</h2>
+          <p>{item.text}</p>
         </div>
-    </section>
-  )
+        <div className="banner-image">
+          <img
+            src={item.image}
+            alt="banner image"
+            className="banner-image-back"
+          />
+        </div>
+      </section>
+      <IoIosArrowBack onClick={prev} className="arrow arrow-left" />
+      <IoIosArrowForward onClick={next} className=" arrow arrow-right" />
+    </>
+  );
 }
 
-export default Banner
+export default Banner;
