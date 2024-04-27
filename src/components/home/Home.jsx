@@ -10,8 +10,6 @@ import BannerCarousel from "../banner/BannerCarousel";
 function Home() {
   return (
     <div className="home">
-      {/* <Banner /> */}
-      <BannerCarousel />
       <Partner />
       <Product />
     </div>
