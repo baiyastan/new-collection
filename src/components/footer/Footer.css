@@ -1,6 +1,8 @@
 .footer {
   margin-top: 20px;
   margin-bottom: 20px;
+  background: #f2f2f2;
+  padding: 30px;
 }
 
 .footer .container {
@@ -77,14 +79,14 @@
 .footer-icons .icon {
   width: 36px;
   height: 36px;
-  padding: 9px 10px;
+  padding: 9px 9px;
   box-sizing: border-box;
   border-radius: 50%;
-  background: #47b2e4;
 }
 
 .footer-icons .icon .icon-back {
-  color: #fff;
+  color: rgba(58, 156, 111, 1);
+  font-size: 30px;
 }
 
 @media (max-width: 1024px) {

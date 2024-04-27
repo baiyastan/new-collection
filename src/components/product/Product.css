@@ -37,8 +37,8 @@
 }
 
 .item-active {
-  background: #47b2e4;
-  color: #fff;
+  background: rgba(58, 156, 111, 1);
+  color: #fff !important;
 }
 
 .product-box-card {
@@ -83,7 +83,6 @@
   visibility: hidden;
   transition: visibility 0.3s ease;
 }
-
 
 @media (max-width: 1024px) {
   .product {
@@ -243,4 +242,3 @@
     margin: 0 auto;
   }
 }
-

@@ -12,7 +12,6 @@ import './About.css'
 function About() {
   return (
     <div className='about'>
-      <Banner />
       <section className='about-text'>
             <div className='container'>
               <p>Компания IMPERIAL-STYLE - успешное швейное производство, базирующееся Кыргызстане и специализирующееся на создании высокачественной одежды для крупных маркетплейсов.</p>
