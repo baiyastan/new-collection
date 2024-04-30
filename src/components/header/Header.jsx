@@ -50,16 +50,12 @@ function Header() {
                             <NavLink  onClick={handleNavLinkClick} activeclassname="active" to='/about'>О компании</NavLink>
                         </li>
                         <li>
-                            <NavLink  onClick={handleNavLinkClick} activeclassname="active" to='/service'>Услуги</NavLink>
-                        </li>
-                        <li>
                             <NavLink  onClick={handleNavLinkClick} activeclassname="active" to='/why'>Почему мы</NavLink>
                         </li>
                         <li>
                             <NavLink  onClick={handleNavLinkClick} activeclassname="active" to='/contact'>Контакты</NavLink>
                         </li>
                     </ul>
-                    <button className={`header-btn`}>Начать</button>
                 </nav>
                 <label htmlFor="burger" className="burger">
                     <input id="burger" type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />

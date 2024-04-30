@@ -26,7 +26,10 @@ function Footer() {
               IMPERIAL STYLE
             </Link>
           </div>
-          <div className="footer-address">г.Бишкек Керемет 2-ая Ном-91</div>
+          <div className="footer-address">
+            <strong style={{ marginRight: "10px" }}>Адрес:</strong> г. Бишкек,
+            ул. Оберон 36
+          </div>
           <a href="tel:+996500992220" className="link">
             <strong>Phone:</strong>+996 500 992 220
           </a>
