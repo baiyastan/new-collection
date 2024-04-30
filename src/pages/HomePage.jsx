@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Home from '../components/home/Home'
+import Home from "../components/home/Home";
 
 function HomePage() {
   return (
-    <div className='wrapper'>
-        <Home />
+    <div>
+      <Home />
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
