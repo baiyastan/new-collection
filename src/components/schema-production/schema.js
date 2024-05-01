@@ -4,6 +4,7 @@ import dress from "../../assets/svg/dress.svg";
 import sewing from "../../assets/svg/sewing-machine.svg";
 import clipboard from "../../assets/svg/clipboard-verification-symbol.svg";
 import delivered from "../../assets/svg/delivered-box-verification-symbol.svg";
+import maks from "../../assets/svg/Mask group.svg";
 
 const schemaArray = [
   {
@@ -37,7 +38,7 @@ const schemaArray = [
     text: "5. Утверждение образца",
     description:
       "Утверждение образца клиентом в онлайн формате или отправка логистической службой",
-    image: dress,
+    image: maks,
   },
   {
     id: 6,

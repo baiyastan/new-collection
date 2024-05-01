@@ -47,16 +47,17 @@
 
 .contact-text-info {
   margin-top: 40px;
+  text-wrap: balance !important;
 }
 
 .email-style {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .email-style a {
-    color: #3a9c6f !important;
-    margin-top: 10px !important;
+  color: #3a9c6f !important;
+  margin-top: 10px !important;
 }
 
 .display {
@@ -185,7 +186,7 @@
     margin-bottom: 30px;
   }
 
-  .info-contact:last-child{
+  .info-contact:last-child {
     margin-bottom: 0;
   }
 
