@@ -1,6 +1,7 @@
 .schema-component {
   margin-top: 40px;
   min-height: 700px;
+  margin-bottom: 250px;
 }
 
 .schema-component .container h2 {
