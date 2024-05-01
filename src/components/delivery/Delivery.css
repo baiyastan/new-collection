@@ -1,0 +1,117 @@
+.delivery-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.delivery-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-wrap: balance;
+}
+
+.delivery-content-div {
+  font-size: 18px;
+  font-weight: 500;
+  text-wrap: balance;
+  color: #3a9c6f !important;
+}
+
+.top-delivery {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .delivery-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .delivery-container .container {
+    max-width: 960px;
+  }
+  .delivery-container .container .delivery-content {
+    max-width: 900px;
+  }
+  .delivery-container .container .delivery-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .delivery-container {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .delivery-container .container {
+    max-width: 960px;
+  }
+  .delivery-container .container .delivery-content {
+    max-width: 900px;
+  }
+  .delivery-container .container .delivery-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .delivery-container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .delivery-container .container {
+    max-width: 720px;
+  }
+  .delivery-container .container .delivery-content {
+    max-width: 700px;
+  }
+  .delivery-container .container .delivery-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .delivery-container {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+  .delivery-container .container {
+    max-width: 375px;
+  }
+  .delivery-container .container .delivery-content {
+    max-width: 350px;
+  }
+  .delivery-content-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .delivery-container .container .delivery-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .delivery-container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .delivery-container .container {
+    max-width: 320px;
+  }
+  .delivery-container .container .delivery-content {
+    max-width: 320px;
+  }
+  .delivery-content-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .delivery-container .container .delivery-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

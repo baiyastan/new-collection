@@ -108,7 +108,7 @@
   .footer {
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .footer .container {
     display: flex;
@@ -122,13 +122,13 @@
   .footer {
     max-width: 375px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 20px;
   }
   .footer .container {
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 20px;
     padding: 0 20px;
   }
 }

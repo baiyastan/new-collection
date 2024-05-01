@@ -1,271 +1,303 @@
 .about {
-    width: 1440px;
-    margin: 0 auto;
-    margin-top: 74px;
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 74px;
 }
 
 .about-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
 }
- .about-text p {
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    color: #444444; 
+
+.about-text p {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+  color: #444444;
+}
+
+.about-text p a {
+    color: #3a9c6f !important;
 }
 
 .about-description {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .about-line {
-    width: 100%;
-    height: 2px;
-    background-color: #e9ecef;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  width: 100%;
+  height: 2px;
+  background-color: #e9ecef;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .about-description {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .about-description h2 {
-    color: #212529;
-    font-size: 18px;
-    font-weight: 600;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .descripton-content {
-    width: 1200px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin: 0;
+  width: 1200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .about-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .left-title {
-    color: #212529;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 7px;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
 }
 
 .letf-title-text {
-    font-size: 15px;
-    color: #212529;
+  font-size: 15px;
+  color: #212529;
 }
 
 .left-face {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .face-private {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .face-opa {
-    width: 150px;
-    height: 15px;
-    background-color: #212529;
+  width: 150px;
+  height: 15px;
+  background-color: #212529;
 }
 
 .face-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .about-left ul {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    color: #212529;
-    font-weight: 600;
-    gap: 10px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 600;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .about-left ul li {
-    list-style: inside;
-    margin-left: 20px;
-    font-weight: 300;
-    color: #212529;
+  list-style: inside;
+  margin-left: 20px;
+  font-weight: 300;
+  color: #212529;
 }
 
 .about-right {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-right ul {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    color: #212529;
-    font-weight: 600;
-    gap: 10px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 600;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .about-right ul li {
-    list-style: inside;
-    margin-left: 20px;
-    font-weight: 300;
-    color: #212529;
+  list-style: inside;
+  margin-left: 20px;
+  font-weight: 300;
+  color: #212529;
 }
 
 .about-right-pay {
-    color: #212529;
-    font-size: 16px;
+  color: #212529;
+  font-size: 16px;
 }
 
+.section-contact-content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
 
 @media (max-width: 1024px) {
-    .about {
-        max-width: 1024px;
-    }
-    .about-text {
-        max-width: 960px;
-        margin: 0 auto;
-        margin-top: 20px;
-        box-sizing: border-box;
-    }
-    .about-description {
-        max-width: 960px;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-    .descripton-content {
-        max-width: 960px;
-        margin: 0 auto;
-    }
+  .about {
+    max-width: 1024px;
+  }
+  .about-text {
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .about-description {
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .descripton-content {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .section-contact-content .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 992px) {
-    .about {
-        max-width: 992px;
-    }
-    .about-text {
-        max-width: 960px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .about-description {
-        max-width: 960px;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-    .descripton-content {
-        max-width: 960px;
-        margin: 0 auto;
-    }
+  .about {
+    max-width: 992px;
+  }
+  .about-text {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about-description {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .descripton-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .section-contact-content .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
-    .about {
-        max-width: 768px;
-    }
-    .about-text {
-        max-width: 720px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .about-description {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        padding: 20px 20px;
-    }
-    .about-description .container {
-        max-width: 720px;
-        box-sizing: border-box;
-    }
-    .descripton-content {
-        max-width: 726px;
-        display: flex;
-        gap: 10px;
-        margin: 0 auto;
-    }
+  .about {
+    max-width: 768px;
+  }
+  .about-text {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about-description {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20px;
+  }
+  .about-description .container {
+    max-width: 720px;
+    box-sizing: border-box;
+  }
+  .descripton-content {
+    max-width: 726px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .section-contact-content .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 435px) {
-    .about {
-        max-width: 430px;
-        width: 100%;
-    }
-    .about .about-text {
-        padding: 0 10px;
-    }
-    .about .about-description {
-        padding: 0 5px;
-    }
-    .about-text {
-        max-width: 375px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .about-description {
-        max-width: 375px;
-        margin: 0 auto;
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-    }
-    .descripton-content {
-        max-width: 375px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .about-right-pay {
-        text-wrap: wrap;
-    }
+  .about {
+    max-width: 430px;
+    width: 100%;
+  }
+  .about .about-text {
+    padding: 0 10px;
+  }
+  .about .about-description {
+    padding: 0 5px;
+  }
+  .about-text {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about-description {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .descripton-content {
+    max-width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-right-pay {
+    text-wrap: wrap;
+  }
+  .section-contact-content .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 375px) {
-    .about {
-        max-width: 375px;
-        width: 100%;
-    }
-    .about-text {
-        max-width: 300px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .about-description {
-        max-width: 320px;
-        margin: 0 auto;
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-    }
-    .descripton-content {
-        max-width: 320px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .about-right-pay {
-        text-wrap: wrap;
-    }
+  .about {
+    max-width: 375px;
+    width: 100%;
+  }
+  .about-text {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about-description {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .descripton-content {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-right-pay {
+    text-wrap: wrap;
+  }
+  .section-contact-content .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }

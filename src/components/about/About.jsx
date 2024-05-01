@@ -1,13 +1,8 @@
 import React from "react";
 
-import Banner from "../banner/Banner";
-
-import { FiMessageCircle } from "react-icons/fi";
-import { IoCheckmarkCircle } from "react-icons/io5";
-import { LiaBinocularsSolid } from "react-icons/lia";
-import { RiGitRepositoryPrivateLine } from "react-icons/ri";
-
 import "./About.css";
+import Delivery from "../delivery";
+import ContactContent from "../contact-content";
 
 function About() {
   return (
@@ -37,7 +32,7 @@ function About() {
           </p>
           <p>
             Не уступите возмлжность получить выгодное предложение вашего
-            бизнеса! Свяжитесь с нами уже сегодня через <a href="#">WhataApp</a>
+            бизнеса! Свяжитесь с нами уже сегодня через <a href="https://wa.me/+996500992220">WhataApp</a>
           </p>
         </div>
       </section>
@@ -68,7 +63,16 @@ function About() {
           </div>
         </div>
       </section>
-      доставка
+      <section>
+        <Delivery />
+      </section>
+      <section className="section-contact-content">
+        <div className="container">
+          <h2>Возникли вопросы?</h2>
+          <p>Свяжитесь с нами, для получения помощи:</p>
+          <ContactContent />
+        </div>
+      </section>
     </div>
   );
 }
