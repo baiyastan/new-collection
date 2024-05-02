@@ -46,6 +46,9 @@ function Footer() {
             <Link onClick={handleClick} to="/о компании">
               О компании
             </Link>
+            <Link onClick={handleClick} to="/услуги">
+              Услуги
+            </Link>
             <Link onClick={handleClick} to="/почему мы">
               Почему мы
             </Link>

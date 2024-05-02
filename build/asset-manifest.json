@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb5ffe0c.css",
+    "main.js": "/static/js/main.4724e46b.js",
+    "static/media/map.png": "/static/media/map.63d353c33aac05adbdac.png",
+    "static/media/Mask group.svg": "/static/media/Mask group.c17dfb0e102c5f4573fa4121cbd6e2cf.svg",
+    "static/media/model.svg": "/static/media/model.749eeebedec1d51dec047f98421e71a5.svg",
+    "static/media/woman.svg": "/static/media/woman.541841d8a9ed63187d9147dc7f898662.svg",
+    "static/media/machine.svg": "/static/media/machine.65641081cef6a19701c71cf544f4ec56.svg",
+    "static/media/people.svg": "/static/media/people.6d406fef4af770121f0e4b9cc09564aa.svg",
+    "static/media/menage.svg": "/static/media/menage.52f4039ec7e34bc110c25ef48f76ab21.svg",
+    "static/media/dress.svg": "/static/media/dress.f902f4a110e197193b1017be26c1027a.svg",
+    "static/media/rating.svg": "/static/media/rating.ca63ec40819e6f8dd06a98b8c6f3c2f3.svg",
+    "static/media/loading.svg": "/static/media/loading.253ebacedb9391871cac411acbc1d1b8.svg",
+    "static/media/clipboard-verification-symbol.svg": "/static/media/clipboard-verification-symbol.4537a449f692926d99cc3e6ce8ceb99c.svg",
+    "static/media/delivered-box-verification-symbol.svg": "/static/media/delivered-box-verification-symbol.d7050334d27e7d25aee9492465548ea9.svg",
+    "static/media/sewing-machine.svg": "/static/media/sewing-machine.079e3eb85b9885c2bab7f103e6f4ec78.svg",
+    "static/media/approval-symbol-in-badge.svg": "/static/media/approval-symbol-in-badge.56c91da4f3c5864ea1fcc19bc2ff2880.svg",
+    "index.html": "/index.html",
+    "static/media/phone.svg": "/static/media/phone.e8da376fd27861fda1cb2a26803b7c45.svg",
+    "static/media/open.svg": "/static/media/open.02876209325aa717cd6d3b77fe13d130.svg",
+    "static/media/message.svg": "/static/media/message.0616f59e1f2bb73338bf1d042fa91159.svg",
+    "static/media/email.svg": "/static/media/email.c7aa28cef4bb6f05a141029233b44ed8.svg",
+    "main.eb5ffe0c.css.map": "/static/css/main.eb5ffe0c.css.map",
+    "main.4724e46b.js.map": "/static/js/main.4724e46b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb5ffe0c.css",
+    "static/js/main.4724e46b.js"
+  ]
+}
