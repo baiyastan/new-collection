@@ -13,7 +13,7 @@ function Home() {
       <Partner />
       <Order />
       <Schema />
-      {/* <Product /> */}
+      <Product />
     </div>
   );
 }

@@ -87,6 +87,43 @@
   font-size: 30px;
 }
 
+.network-fixed {
+  position: fixed;
+  right: 50px;
+  bottom: 250px;
+  transition: transform 0.3s ease;
+}
+
+.fixed-base {
+  width: 100px;
+}
+
+.fixed-base img {
+  width: 100%;
+}
+
+.fixed-content {
+  top: -150px;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.fixed-content.active {
+  top: -150px;
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.fixed-icons {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  gap: 30px;
+  align-items: center;
+  transition: opacity 10s ease;
+}
+
 @media (max-width: 1024px) {
   .footer {
     max-width: 960px;
