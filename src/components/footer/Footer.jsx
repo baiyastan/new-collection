@@ -38,16 +38,13 @@ function Footer() {
           </a>
         </div>
         <div className="footer-menu">
-          <div className="footer-link">Полезный ссылки</div>
+          <div className="footer-link">Полезные ссылки</div>
           <div className="menu-link">
             <Link onClick={handleClick} to="/">
               Что шьём
             </Link>
             <Link onClick={handleClick} to="/о компании">
               О компании
-            </Link>
-            <Link onClick={handleClick} to="/услуги">
-              Услуги
             </Link>
             <Link onClick={handleClick} to="/почему мы">
               Почему мы
