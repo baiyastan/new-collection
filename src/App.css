@@ -27,6 +27,7 @@ button {
   outline: none;
   background: transparent;
   padding: 8px 20px;
+  cursor: pointer;
 }
 
 .wrapper {

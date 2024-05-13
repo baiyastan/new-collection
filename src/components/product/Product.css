@@ -55,14 +55,23 @@
 
 .card-item {
   width: 278px;
-  height: 415px;
+  height: 430px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.card-item img {
+
+.image-container {
+  width: 100%;
+  height: 360px;
+}
+
+.image-container img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -71,17 +80,7 @@
 }
 
 .card-item:hover img {
-  transform: scale(1.2);
-}
-
-.card-item .hover-background {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 35px;
-  background-color: rgba(55, 81, 126, 0.8);
-  visibility: hidden;
-  transition: visibility 0.3s ease;
+  transform: scale(1.1);
 }
 
 @media (max-width: 1024px) {
@@ -105,7 +104,7 @@
   }
   .card-item {
     width: 295px;
-    height: 373px;
+    height: 430px;
     position: relative;
     overflow: hidden;
   }
@@ -148,7 +147,7 @@
   }
   .card-item {
     width: 295px;
-    height: 373px;
+    height: 430px;
     position: relative;
     overflow: hidden;
   }

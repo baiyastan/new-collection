@@ -1,15 +1,18 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Card({ items }) {
-
   return (
     <div className="box">
-      {items.slice(0, 5).map((el) => (
-        <div className="card-item" key={el.id}>
+      {items.slice(0, 10).map((el) => (
+        <Link to={`/${el.id}`} className="card-item" key={el.id}>
           <div className="image-container">
-            <img src={el.avatar} alt="card image" />
+            <img src={el.images} alt="card image" />
           </div>
-        </div>
+          <div className="card-content">
+            <h2>{el.name}</h2>
+          </div>
+        </Link>
       ))}
     </div>
   );
