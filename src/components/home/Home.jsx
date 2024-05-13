@@ -15,7 +15,6 @@ function Home() {
       <Order />
       <Schema />
       <Product />
-      {/* <BannerDress /> */}
     </div>
   );
 }
