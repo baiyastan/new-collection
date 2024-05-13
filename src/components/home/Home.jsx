@@ -6,6 +6,7 @@ import Schema from "../schema-production";
 import Order from "../order";
 
 import "./Home.css";
+import BannerDress from "../banner-dress/BannerDress";
 
 function Home() {
   return (

@@ -6,7 +6,7 @@ import Card from "./Card";
 
 import "./Product.css";
 
-const API = "https://656df576bcc5618d3c244f13.mockapi.io/ap/v1/loylen";
+const API = "https://api.escuelajs.co/api/v1/products";
 
 function Product() {
   const [product, setProduct] = useState([]);
@@ -31,9 +31,7 @@ function Product() {
         </div>
         <div className="product-box">
           <div className="product-box-name">
-            <ProductName
-              items={["Платья", "Юбки"]}
-            />
+            <ProductName items={["Платья", "Юбки"]} />
           </div>
           <div className="product-box-card">
             <Card items={product} />
