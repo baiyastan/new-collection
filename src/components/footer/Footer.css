@@ -106,13 +106,14 @@
 .fixed-content {
   position: absolute;
   top: -250px;
+  opacity: 0;
   transform: translateY(80%);
   transition: transform 0.5s ease-in, opacity 0.5s ease-in;
 }
 
 .fixed-content.active {
   transform: translateY(0%);
-  opacity: 0;
+  opacity: 1;
   border: none;
 }
 
@@ -167,6 +168,12 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 20px;
+  }
+  .network-fixed {
+    right: 20px;
+  }
+  .fixed-base {
+    width: 70px;
   }
 }
 

@@ -1,6 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import { About, Contact, Home, NotFound, ProductPage, Why } from "./pages";
+import {
+  About,
+  Catalog,
+  Contact,
+  Home,
+  NotFound,
+  ProductPage,
+  Why,
+} from "./pages";
 
 import "./App.css";
 
@@ -11,6 +19,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/catalog" element={<Catalog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/why" element={<Why />} />
           <Route path="/:id" element={<ProductPage />} />
