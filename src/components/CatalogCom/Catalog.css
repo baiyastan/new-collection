@@ -144,6 +144,11 @@
     max-width: 375px;
     width: 100%;
   }
+  .catalog-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
   .collection {
     max-width: 370px;
     margin: 0 auto;
@@ -174,6 +179,11 @@
     max-width: 320px;
     width: 100%;
   }
+  .catalog-text {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
   .collection {
     max-width: 320px;
     margin: 0 auto;
@@ -182,7 +192,6 @@
     margin: 0;
     gap: 30px;
   }
-
   .catalog-sidebar {
     display: none;
   }

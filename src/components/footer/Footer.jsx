@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import contactMess from "../../assets/svg/contact_btn.svg";
@@ -8,6 +8,7 @@ import "./Footer.css";
 function Footer() {
   const [isActive, setIsActive] = useState(false);
   const [popup, setPopup] = useState(false);
+  const wrappRef = useRef(null);
 
   const handleClick = () => {
     setIsActive(true);
@@ -16,6 +17,19 @@ function Footer() {
       setIsActive(false);
     });
   };
+
+  useEffect(() => {
+    function handleOut(event) {
+      if (wrappRef.current && !wrappRef.current.contains(event.target)) {
+        setPopup(false);
+      }
+    }
+    document.addEventListener("mousedown", handleOut);
+    return () => {
+      document.removeEventListener("mousedown", handleOut);
+    };
+  }, [wrappRef]);
+
   return (
     <>
       <footer className="footer">
@@ -110,7 +124,7 @@ function Footer() {
       </footer>
       <div className="network-fixed">
         <div className="container">
-          <div className="fixed">
+          <div ref={wrappRef} className="fixed">
             <div onClick={() => setPopup(!popup)} className="fixed-base">
               <img src={contactMess} alt="message svg" />
             </div>
