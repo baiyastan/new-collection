@@ -133,7 +133,7 @@ function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://t.me/+996500443423"
+                  href="https://t.me/+996500992220"
                   target="blank"
                   className="icon"
                 >
