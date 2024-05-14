@@ -93,10 +93,12 @@
   right: 50px;
   bottom: 20px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .fixed-base {
   width: 100px;
+  cursor: pointer;
 }
 
 .fixed-base img {
@@ -105,10 +107,12 @@
 
 .fixed-content {
   position: absolute;
-  top: -250px;
+  top: -200px;
+  left: 10px;
   opacity: 0;
   transform: translateY(80%);
   transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+  cursor: pointer;
 }
 
 .fixed-content.active {
@@ -132,6 +136,19 @@
     margin: 0 auto;
     margin-top: 30px;
   }
+  .network-fixed {
+    max-width: 960px;
+  }
+  .fixed-base {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+  .fixed-content {
+    position: absolute;
+    left: -75px;
+    top: -250px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -139,6 +156,11 @@
     max-width: 960px;
     margin: 0 auto;
     margin-top: 30px;
+  }
+  .fixed-content {
+    position: absolute;
+    left: -75px;
+    top: -250px;
   }
 }
 
@@ -153,6 +175,11 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 20px;
+  }
+  .fixed-content {
+    position: absolute;
+    left: -75px;
+    top: -250px;
   }
 }
 
@@ -175,6 +202,11 @@
   .fixed-base {
     width: 70px;
   }
+  .fixed-content {
+    position: absolute;
+    left: -60px;
+    top: -200px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -189,5 +221,10 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 20px;
+  }
+  .fixed-content {
+    position: absolute;
+    left: -60px;
+    top: -200px;
   }
 }

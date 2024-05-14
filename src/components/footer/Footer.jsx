@@ -43,6 +43,9 @@ function Footer() {
               <Link onClick={handleClick} to="/">
                 Что шьём
               </Link>
+              <Link onClick={handleClick} to="/catalog">
+                Каталог
+              </Link>
               <Link onClick={handleClick} to="/about">
                 О компании
               </Link>
@@ -129,7 +132,11 @@ function Footer() {
                     />
                   </svg>
                 </a>
-                <a href="https://telegram.org" target="blank" className="icon">
+                <a
+                  href="https://t.me/+996500443423"
+                  target="blank"
+                  className="icon"
+                >
                   <svg
                     width="44"
                     xmlns="http://www.w3.org/2000/svg"

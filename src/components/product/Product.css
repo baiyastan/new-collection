@@ -43,14 +43,14 @@
 
 .product-box-card {
   margin-top: 30px;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .box {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 29px;
+  /* gap: 29px; */
 }
 
 .card-item {
@@ -100,7 +100,7 @@
     max-width: 960px;
     display: flex;
     flex-wrap: wrap;
-    gap: 36px;
+    gap: 25px;
   }
   .card-item {
     width: 295px;

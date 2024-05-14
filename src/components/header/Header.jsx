@@ -54,6 +54,15 @@ function Header() {
                 <NavLink
                   onClick={handleNavLinkClick}
                   activeclassname="active"
+                  to="/catalog"
+                >
+                  Каталог
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  onClick={handleNavLinkClick}
+                  activeclassname="active"
                   to="/about"
                 >
                   О компании
