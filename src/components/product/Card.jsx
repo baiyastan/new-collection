@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Card({ items }) {
@@ -10,7 +10,7 @@ function Card({ items }) {
             <img src={el.images} alt="card image" />
           </div>
           <div className="card-content">
-            <h2>{el.name}</h2>
+            <h2>{el.name} Jonh</h2>
           </div>
         </Link>
       ))}

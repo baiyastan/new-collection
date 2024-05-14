@@ -1,32 +1,61 @@
-// Banner.js
 import React from "react";
-import "./Banner.css";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function Banner({ item, prev, next, isActive, isSliding }) {
+import banner from "../../assets/image/banner.jpg";
+
+import "./Banner.css";
+import { Link } from "react-router-dom";
+
+function Banner() {
   return (
     <>
-      <section
-        // className={`${isActive ? "home-banner" : "home-banner home-hidden"}`}
-        // style={{ transform: isActive ? "translateX(0)" : "translateX(-100%)" }}
-        className={`home-banner ${isSliding ? "sliding" : ""} ${
-          isActive ? "" : "home-hidden"
-        }`}
-      >
-        <div className="banner-title">
-          <h2>{item.title}</h2>
-          <p>{item.text}</p>
+      <div className="banner-top"></div>
+      <div className="banner-container">
+        <div className="container">
+          <div className="carousel">
+            <Carousel>
+              <Carousel.Item interval={1000}>
+                <img src={banner} alt="carousel image" />
+                <Carousel.Caption>
+                  <h3>First slide label</h3>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                  <Link to="/catalog" className="link-btn">
+                    Перейти в каталог
+                  </Link>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={500}>
+                <img src={banner} alt="carousel image" />
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <Link to="/catalog" className="link-btn">
+                    Перейти в каталог
+                  </Link>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src={banner} alt="carousel image" />
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                  <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl
+                    consectetur.
+                  </p>
+                  <Link to="/catalog" className="link-btn">
+                    Перейти в каталог
+                  </Link>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </div>
         </div>
-        <div className="banner-image">
-          <img
-            src={item.image}
-            alt="banner image"
-            className="banner-image-back"
-          />
-        </div>
-      </section>
-      <IoIosArrowBack onClick={prev} className="arrow arrow-left" />
-      <IoIosArrowForward onClick={next} className=" arrow arrow-right" />
+      </div>
     </>
   );
 }
