@@ -116,7 +116,7 @@
   font-weight: 600;
 }
 
-.schema-card-text p{
+.schema-card-text p {
   margin: 0;
 }
 
@@ -731,4 +731,8 @@
     font-size: 12px;
     text-wrap: balance;
   }
+}
+
+.schema-card img {
+  width: 200px;
 }

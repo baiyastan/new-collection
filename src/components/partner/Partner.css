@@ -1,5 +1,5 @@
 .partner {
-  margin-top: 50px;
+  margin-top: 350px;
 }
 
 .partner .container h2 {
@@ -73,15 +73,15 @@
   .partner-card:last-child {
     width: 290px;
   }
-  
+
   .partner-card:nth-last-child(2) {
     width: 290px;
   }
-  
+
   .partner-card:nth-last-child(3) {
     width: 290px;
   }
-  
+
   .partner-card:nth-last-child(4) {
     width: 290px;
   }
@@ -158,4 +158,11 @@
 
 .partner-card:hover .partner-card-svg {
   fill: red;
+}
+
+.partner-card-svg {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
 }
