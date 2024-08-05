@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../assets/image/logo2.png";
 
 import "./Header.css";
 
@@ -37,7 +38,9 @@ function Header() {
       <div className="header">
         <div className="container">
           <div className="logo">
-            <Link to="/">IMPERIAL STYLE</Link>
+            <Link to="/">
+              <img className="" src={logo} alt="" />
+            </Link>
           </div>
           <nav className={`navs ${isChecked ? "nav-mobile" : ""}`}>
             <ul>

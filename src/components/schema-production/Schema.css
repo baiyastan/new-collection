@@ -20,9 +20,9 @@
   height: 159px;
   padding: 10px;
   border-right: 0px;
-  border-top: 3px solid #3a9c6f;
-  border-bottom: 3px solid #3a9c6f;
-  border-left: 3px solid #3a9c6f;
+  border-top: 3px solid #182d9a;
+  border-bottom: 3px solid #182d9a;
+  border-left: 3px solid #182d9a;
   border-top-right-radius: 84px;
   border-bottom-right-radius: 84px;
   border-top-left-radius: 84px;
@@ -37,7 +37,7 @@
 .schema-container:nth-child(2) {
   position: absolute;
   right: 400px;
-  border-right: 3px solid #3a9c6f;
+  border-right: 3px solid #182d9a;
   border-left: 0px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -53,7 +53,7 @@
 .schema-container:nth-child(4) {
   position: absolute;
   right: 400px;
-  border-right: 3px solid #3a9c6f;
+  border-right: 3px solid #182d9a;
   border-left: 0px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -69,7 +69,7 @@
 .schema-container:nth-child(6) {
   position: absolute;
   right: 400px;
-  border-right: 3px solid #3a9c6f;
+  border-right: 3px solid #182d9a;
   border-left: 0px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -85,7 +85,7 @@
 .schema-container:nth-child(8) {
   position: absolute;
   right: 400px;
-  border-right: 3px solid #3a9c6f;
+  border-right: 3px solid #182d9a;
   border-left: 0px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -136,7 +136,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -152,7 +152,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -168,7 +168,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -184,7 +184,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -208,7 +208,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -224,7 +224,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -240,7 +240,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -256,7 +256,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 35px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -278,9 +278,9 @@
     height: 220px;
     padding: 10px;
     border-right: 0px;
-    border-top: 0px solid #3a9c6f;
-    border-bottom: 0px solid #3a9c6f;
-    border-left: 3px solid #3a9c6f;
+    border-top: 0px solid #182d9a;
+    border-bottom: 0px solid #182d9a;
+    border-left: 3px solid #182d9a;
     border-top-right-radius: 84px;
     border-bottom-right-radius: 84px;
     border-top-left-radius: 84px;
@@ -296,7 +296,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 200px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -311,7 +311,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 200px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -326,7 +326,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 200px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -341,7 +341,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 200px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -391,9 +391,9 @@
     height: 240px;
     padding: 10px;
     border-right: 0px;
-    border-top: 0px solid #3a9c6f;
-    border-bottom: 0px solid #3a9c6f;
-    border-left: 3px solid #3a9c6f;
+    border-top: 0px solid #182d9a;
+    border-bottom: 0px solid #182d9a;
+    border-left: 3px solid #182d9a;
     border-top-right-radius: 84px;
     border-bottom-right-radius: 84px;
     border-top-left-radius: 84px;
@@ -409,7 +409,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 40px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -425,7 +425,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 40px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -441,7 +441,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 40px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -457,7 +457,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 40px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -508,9 +508,9 @@
     height: 220px;
     padding: 10px;
     border-right: 0px;
-    border-top: 0px solid #3a9c6f;
-    border-bottom: 0px solid #3a9c6f;
-    border-left: 3px solid #3a9c6f;
+    border-top: 0px solid #182d9a;
+    border-bottom: 0px solid #182d9a;
+    border-left: 3px solid #182d9a;
     border-top-right-radius: 84px;
     border-bottom-right-radius: 84px;
     border-top-left-radius: 84px;
@@ -526,7 +526,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 24px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -542,7 +542,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 24px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -558,7 +558,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 24px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -574,7 +574,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 24px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -629,9 +629,9 @@
     height: 190px;
     padding: 10px;
     border-right: 0px;
-    border-top: 0px solid #3a9c6f;
-    border-bottom: 0px solid #3a9c6f;
-    border-left: 3px solid #3a9c6f;
+    border-top: 0px solid #182d9a;
+    border-bottom: 0px solid #182d9a;
+    border-left: 3px solid #182d9a;
     border-top-right-radius: 84px;
     border-bottom-right-radius: 84px;
     border-top-left-radius: 84px;
@@ -647,7 +647,7 @@
   .schema-container:nth-child(2) {
     position: absolute;
     right: 12px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -663,7 +663,7 @@
   .schema-container:nth-child(4) {
     position: absolute;
     right: 12px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -679,7 +679,7 @@
   .schema-container:nth-child(6) {
     position: absolute;
     right: 12px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -695,7 +695,7 @@
   .schema-container:nth-child(8) {
     position: absolute;
     right: 12px;
-    border-right: 3px solid #3a9c6f;
+    border-right: 3px solid #182d9a;
     border-left: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
