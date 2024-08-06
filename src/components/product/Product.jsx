@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import ProductName from "./ProductName";
+// import ProductName from "./ProductName";
 import Card from "./Card";
 
 import "./Product.css";
@@ -31,7 +31,7 @@ function Product() {
         </div>
         <div className="product-box">
           <div className="product-box-name">
-            <ProductName items={["Платья", "Юбки"]} />
+            {/* <ProductName items={["Платья", "Юбки"]} /> */}
           </div>
           <div className="product-box-card">
             <Card items={product} />

@@ -1,7 +1,5 @@
 .about {
-  width: 1440px;
-  margin: 0 auto;
-  margin-top: 74px;
+  margin-top: 150px;
 }
 
 .about-text {
@@ -19,7 +17,7 @@
 }
 
 .about-text p a {
-    color: #3a9c6f !important;
+    color: #182d9a !important;
 }
 
 .about-description {

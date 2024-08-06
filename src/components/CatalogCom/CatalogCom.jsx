@@ -29,10 +29,10 @@ function CatalogCom() {
         <div className="container">
           <div className="catalog-text">Новая коллекция</div>
           <div className="collection">
-            <div className="catalog-sidebar">
+            {/* <div className="catalog-sidebar">
               <div className="catalog-text-category">Категории</div>
               <CatalogName items={["Платья", "Юбки"]} />
-            </div>
+            </div> */}
             <div className="catalog-content">
               <Card items={product} />
             </div>

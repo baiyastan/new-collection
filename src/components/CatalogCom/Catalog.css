@@ -1,5 +1,5 @@
 .catalog-header {
-  padding-top: 55px;
+  padding-top: 110px;
 }
 
 .catalog-container {
@@ -39,7 +39,7 @@
 }
 
 .catalog-content {
-  width: 900px;
+  /* width: 900px; */
 }
 
 .catalog-categories {
