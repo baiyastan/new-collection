@@ -1,10 +1,5 @@
 .contact {
-  width: 1440px;
-  margin: 0 auto;
-}
-
-.contact .container {
-  margin-top: 74px;
+  margin-top: 150px;
 }
 
 .contact-text {
@@ -56,8 +51,7 @@
 }
 
 .email-style a {
-  color: #3a9c6f !important;
-  margin-top: 10px !important;
+  color: #182d9a !important;
 }
 
 .display {
@@ -69,7 +63,7 @@
 
 .display a {
   margin-left: 10px;
-  color: #3a9c6f !important;
+  color: #182d9a !important;
   font-weight: 500;
 }
 

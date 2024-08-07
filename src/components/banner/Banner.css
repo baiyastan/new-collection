@@ -10,7 +10,7 @@
 
 .carousel {
   width: 100%;
-  max-height: 400px !important;
+  /* max-height: 400px !important; */
 }
 
 .carousel img {
@@ -20,20 +20,21 @@
 }
 
 .carousel h3 {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .carousel p {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .link-btn {
   padding: 10px 20px;
-  background-color: #3a9c6f;
+  background-color: #182d9a;
   border-radius: 30px;
   color: #fff !important;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
 }
 .carousel-indicators {
   display: none;

@@ -23,7 +23,7 @@ function Tabs() {
           <button
             key={i}
             id={tab.id}
-            className={currentTab === `${tab.id}` ? "active" : ""}
+            className={currentTab === `${tab.id}` ? "active-tabs" : ""}
             onClick={handleTabClick}
           >
             {tab.tabTitle}
@@ -41,7 +41,7 @@ function Tabs() {
                 {tab.contact && (
                   <button onClick={handlePopup}>{tab.contact}</button>
                 )}
-                {popup && <PopupCom setPopup={setPopup}/>}
+                {popup && <PopupCom setPopup={setPopup} />}
               </div>
             )}
           </div>

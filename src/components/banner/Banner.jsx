@@ -13,11 +13,11 @@ function Banner() {
     <>
       <div className="banner-top"></div>
       <div className="banner-container">
-        <div className="">
+        <div className="carousel-parent">
           <div className="carousel">
             <Carousel>
               <Carousel.Item interval={1000}>
-                <img src={banner11} alt="carousel image" />
+                <img height={"100px"} src={banner11} alt="carousel image" />
                 <Carousel.Caption>
                   <p>
                     Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -28,7 +28,7 @@ function Banner() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={500}>
-                <img src={banner11} alt="carousel image" />
+                <img height={"100px"} src={banner11} alt="carousel image" />
                 <Carousel.Caption>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -39,7 +39,7 @@ function Banner() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={banner11} alt="carousel image" />
+                <img height={"100px"} src={banner11} alt="carousel image" />
                 <Carousel.Caption>
                   <p>
                     Praesent commodo cursus magna, vel scelerisque nisl

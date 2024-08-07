@@ -5,7 +5,6 @@ import logo from "../../assets/image/logo2.png";
 import "./Header.css";
 
 function Header() {
-  // const [open, setOpen] = useState(false)
   const [isChecked, setChecked] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -39,7 +38,7 @@ function Header() {
         <div className="container">
           <div className="logo">
             <Link to="/">
-              <img className="" src={logo} alt="" />
+              <img className="logo" src={logo} alt="logo svg" />
             </Link>
           </div>
           <nav className={`navs ${isChecked ? "nav-mobile" : ""}`}>
