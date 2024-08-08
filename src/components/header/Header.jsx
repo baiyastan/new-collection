@@ -88,6 +88,15 @@ function Header() {
                   Контакты
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  onClick={handleNavLinkClick}
+                  activeclassname="active"
+                  to="/review"
+                >
+                  Отзывы
+                </NavLink>
+              </li>
             </ul>
           </nav>
           <label htmlFor="burger" className="burger">

@@ -30,9 +30,6 @@ function Product() {
           изделий и нежного белья
         </div>
         <div className="product-box">
-          <div className="product-box-name">
-            {/* <ProductName items={["Платья", "Юбки"]} /> */}
-          </div>
           <div className="product-box-card">
             <Card items={product} />
           </div>
