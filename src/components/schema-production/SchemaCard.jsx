@@ -4,8 +4,8 @@ function SchemaCard({ el }) {
   return (
     <div className="schema-container">
       <div className="schema-card">
-        <div>
-          <img src={el.image} alt="" />
+        <div className="schema-card-image">
+          <img src={el.image} alt="schema image" />
         </div>
         <div className="schema-card-text">
           <h2>{el.text}</h2>

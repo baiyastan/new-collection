@@ -27,7 +27,7 @@ function CatalogCom() {
       <div className="catalog-header"></div>
       <div className="catalog-container">
         <div className="container">
-          <div className="catalog-text">Новая коллекция</div>
+          <div className="catalog-text">Наша коллекция</div>
           <div className="collection">
             {/* <div className="catalog-sidebar">
               <div className="catalog-text-category">Категории</div>

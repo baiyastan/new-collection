@@ -14,8 +14,8 @@
 }
 
 .active-tabs {
-  color: #3a9c6f !important;
-  border-bottom: 2px solid #3a9c6f;
+  color: #182d9a !important;
+  border-bottom: 2px solid #182d9a;
 }
 
 .tabs-content {
@@ -43,14 +43,14 @@
 }
 
 .tabs-content-text p:last-child {
-  color: #3a9c6f !important;
+  color: #182d9a !important;
   margin-top: 10px;
 }
 
 .tabs-content-text button {
   width: 190px;
   height: 59px;
-  background-color: #3a9c6f;
+  background-color: #182d9a;
   color: #fff !important;
   font-size: 18px;
   font-weight: 500;

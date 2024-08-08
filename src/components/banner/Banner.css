@@ -5,12 +5,10 @@
 
 .banner-container {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .carousel {
   width: 100%;
-  /* max-height: 400px !important; */
 }
 
 .carousel img {
